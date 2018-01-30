@@ -1,0 +1,95 @@
+body {
+  background-color: rgba(198, 238, 252, 0.53);
+  color: #ffffff; }
+  body #content {
+    background-color: #3b3b3b;
+    padding: 0 20px;
+    width: 960px;
+    margin: auto; }
+    body #content h1 {
+      margin-top: 0px;
+      padding-top: 0px;
+      color: #fccd10;
+      text-align: center;
+      text-transform: uppercase; }
+    body #content h1:nth-child(1) {
+      padding: 20px;
+      margin-bottom: -15px; }
+    body #content h2 {
+      margin-top: 16px;
+      color: #fccd10; }
+    body #content .brief {
+      background-color: #fff178;
+      margin-right: 20px;
+      float: left;
+      color: #000000;
+      width: 388px;
+      height: 75px;
+      padding: 20px 15px 0 20px; }
+    body #content .img-left {
+      padding: 2px;
+      border: 2px solid #fccd10;
+      float: left;
+      margin-right: 20px; }
+    body #content .img-right {
+      padding: 2px;
+      border: 2px solid #fccd10;
+      float: right;
+      margin-left: 20px; }
+    body #content a {
+      color: #f5c70f; }
+      body #content a:hover {
+        color: #fbe9a2; }
+    body #content table {
+      padding-left: 10px;
+      border-collapse: collapse;
+      margin-bottom: 59px; }
+      body #content table tr:nth-child(1) {
+        color: #000000;
+        text-transform: uppercase;
+        text-align: left;
+        background-color: #94a34e; }
+      body #content table th, body #content table td {
+        padding: 0 15px;
+        font-weight: normal; }
+      body #content table th:not(:last-child) {
+        border-right: 1px solid white; }
+      body #content table tr {
+        background-color: #677d01;
+        height: 39px;
+        text-indent: 2px;
+        border-bottom: 1px solid #94a34e; }
+      body #content table caption {
+        color: black;
+        text-align: right; }
+    body #content form {
+      width: 1000px;
+      color: #fccd10; }
+      body #content form label:nth-child(1) {
+        padding-right: 45.5%; }
+      body #content form input[type="text"] {
+        width: 47%;
+        padding: 4px 0 4px 4px;
+        margin: 5px 5px 15px 0; }
+      body #content form input[type="email"] {
+        width: 958px;
+        padding: 4px 0 4px 4px;
+        margin: 5px 5px 15px 0; }
+      body #content form textarea {
+        width: 960px;
+        height: 150px;
+        padding: 4px 0 4px 4px;
+        margin-top: 5px; }
+      body #content form button {
+        color: #f5c70f;
+        border: 1px solid #f5c70f;
+        background: #3b3b3b;
+        padding: 10px 63px;
+        font-size: 20px;
+        margin-top: 20px;
+        margin-bottom: 35px; }
+        body #content form button:hover {
+          cursor: pointer;
+          background: #f5c70f;
+          color: #3b3b3b;
+          transition: 0.5s; }
