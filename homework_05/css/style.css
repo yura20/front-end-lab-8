@@ -1,0 +1,246 @@
+body{
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+}
+header{
+  max-width: 860px;
+  margin: auto;
+  padding: 19px;
+  padding-left: 
+}
+header img{
+  float: left;
+}
+header nav{
+  float: left;
+}
+header nav ul{
+  list-style: none;
+}
+header nav ul li{
+  float: left;
+  padding: 0 10px;
+}
+header nav ul li a{
+  text-decoration: none;
+  color: #333;
+  font-size: 1.2em;
+  font-weight: bolder;
+  text-transform: uppercase;
+  letter-spacing: -0.5px;
+}
+header nav ul li a:hover{
+  color: #39c2d7;
+}
+.clearfix{
+  clear: both;
+}
+.banner{
+  background-image: url(../img/banner.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 377px;
+}
+.banner div{
+  width: 860px;
+  margin: auto;
+}
+.banner div h1{
+  padding: 0;
+  margin: 0;
+  padding-top: 50px;
+  color: #fff;
+  font-size: 3em;
+  font-weight: 500;
+  width: 400px;
+  letter-spacing: -1px;
+  line-height: 48px;
+}
+section{
+  width: 860px;
+  margin: auto;
+}
+section .news_block{
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: 32% 32% 32%;
+  padding: 20px 0;
+}
+section .news_block a{
+  padding: 4% 4% 0 4%;
+  background-color: #ccc;
+  color: #333;
+  text-decoration: none;
+}
+section .news_block a:hover{
+  background-color: #39c2d7;
+}
+section .news_block a img{
+  width: 100%;
+}
+section .news_block h3{
+  padding: 0;
+  margin: 0;
+  padding-top: 4px;
+  letter-spacing: -0.2px;
+  margin: 0;
+}
+section .news_block p{
+  padding: 0;
+  margin: 0;
+  padding-top: 5px;
+  padding-bottom: 20px;
+}
+footer{
+  height: 15px;
+  padding: 20px 0;
+  background-color: #39c2d7;
+}
+footer>div{
+  max-width: 860px;
+  margin: auto;
+}
+footer>div>div{
+  display: inline;
+}
+footer>div>div>a{
+  padding: 0 2% 0 0;
+  font-weight: bold;
+  color: #fff;
+  letter-spacing: -0.5px;
+}
+footer>div>div>a:hover{
+  text-decoration: none;
+}
+footer>div>p{
+  display: inline;
+  font-weight: bold;
+  color: #fff;
+  letter-spacing: -0.5px;
+}
+@media screen and (max-width: 900px){
+  header{
+    text-align: center;
+    padding-bottom: 25px;
+  }
+  header img{
+    margin: auto;
+    float: none;
+  }
+  header nav{
+    width: 500px;
+    float: none;
+    margin: auto;
+  }
+  header nav ul{
+    width: 450px;
+    margin: auto;
+    padding-top: 20px;
+    margin-bottom: 0;
+  }
+  header nav ul li{
+    padding: 0 13px;
+  }
+  .banner{
+    height: 530px;
+  }
+  .banner div{
+    width: 475px;
+    margin: auto;
+    padding: 0;
+    text-align: center;
+  }
+  .banner div h1{
+    padding-top: 51px;
+    font-size: 1.9em;
+    font-weight: 600;
+    line-height: 30px;
+    width: 500px;
+  }
+  section{
+    width: 100%;
+  }
+  section .news_block{
+    margin: auto;
+    grid-template-columns: 47.5vw 47.5vw;
+    grid-gap: 2vw;
+    padding-left: 0.3vw;
+  }
+  footer{
+    height: 45px;
+    padding: 20px 0;
+    text-align: center;
+  }
+  footer>div>div{
+    display: block;
+  }
+  footer>div>p{
+    padding: 0;
+    position: relative;
+    top: 15px;
+  }
+}
+@media screen and (max-width: 575px){
+  header{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  header img{
+    transform: scale(0.65);
+  }
+  header nav{
+    display: block;
+    position: static;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+  }
+  header nav ul{
+    margin: 0;
+    padding: 0;
+    width: auto;
+  }
+  header nav ul li{
+    float: none;
+    display: block;
+    padding: 0;
+    margin: 0;
+    padding: 9px 20px;
+    text-align: left;
+    border-top: 1px solid #ccc;
+    background-color: #eee;
+  }
+  .banner{
+    padding: 5%;
+    height: 200px;
+  }
+  .banner div{
+    margin: 0;
+    padding: 5px 10px ;
+    margin-top: 130px;
+    box-sizing: border-box;
+    width: 100%;
+    text-align: left;
+    background-color: #39c2d7;
+  }
+  .banner div h1{
+    padding-top: 0px;
+    font-size: 1.5em;
+    width: 100%;
+  }
+  section .news_block{
+    padding-left: 3vw;
+    grid-template-columns: 95%;
+  }
+  footer{
+    height: 100px;
+    text-align: center;
+  }
+  footer>div>div>a{
+    display: block;
+    padding-bottom: 5px;
+  }
+}
