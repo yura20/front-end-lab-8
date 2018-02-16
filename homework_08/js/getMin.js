@@ -5,7 +5,7 @@ function getMin(){
             x = arguments[i];
         }
     }
-    if(typeof(x)=="number"){
+    if(typeof(x)==="number"){
         return x;
     }else{
         return "Error. Arguments must be numbers!";
