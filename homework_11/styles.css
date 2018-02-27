@@ -1,0 +1,25 @@
+/* Your styles goes here */
+ul{
+  list-style: none;
+  padding-left: 20px;
+}
+#root > ul{
+  width: 350px;
+}
+.empty{
+  font-style: italic;
+}
+span{
+  vertical-align: super;
+}
+.material-icons{
+  color: #BBBBBB;
+}
+.folder>div> .material-icons{
+  color: #EDBC0B;
+}
+#root div:hover{
+  background: rgba(128, 128, 128, 0.3);
+  cursor: pointer;
+}
+
