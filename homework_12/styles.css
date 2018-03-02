@@ -1,0 +1,70 @@
+/* Your styles goes here */
+body{
+    background: #1C1C1E;
+}
+.thumbnails h1{
+    color: #9F9C85;
+}
+.thumbnails div{
+    height: 260px;
+    width: 300px;
+    float: left;
+}
+.thumbnails div p{
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+.thumbnails div:hover{
+    background: #2C2C2C;
+    cursor: pointer;
+}
+.thumbnails div p span{
+    font-size: 1.5em;
+    margin: 5px;
+    color: #9F9C85;
+    font-weight: 700;
+}
+
+.thumbnails div p .model{
+    font-size: 1.3em;
+    color: #D8D3BB;
+    font-weight: 800;
+}
+.thumbnails div .preview{
+    height: 219px;
+    width: 300px;
+}
+
+.tank-details{
+    color: #9F9C85;
+}
+.tank-details .group div{
+    float: left;
+}
+.tank-details .group:after{
+  content: "";
+  display: table;
+  clear: both;
+}
+.tank-details h1 span{
+    margin-left: 5px;
+}
+table {
+    border-collapse: collapse;
+    
+}
+table, th, td {
+    border: 1px solid #9F9C85;
+}
+td:nth-child(1) {
+    width: 500px;
+    padding: 5px;
+}
+td:nth-child(2) {
+    width: 200px;
+    padding: 5px;
+}
+.tank-details p {
+    cursor: pointer;
+}
